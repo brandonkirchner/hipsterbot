@@ -12,7 +12,7 @@ var giphy = require('giphy-wrapper')(process.env.GIPHY_TOKEN);
 
 slack.on('open', function() {
 
-	var channels = [],
+	var channels = [process.env.CHANNELS],
 	    groups = [],
 	    unreads = slack.getUnreadCount(),
 	    key;
