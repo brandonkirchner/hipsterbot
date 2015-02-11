@@ -48,5 +48,13 @@ Then, you may need to restart your worker, either through the Heroku UI, or comm
 heroku ps:restart worker
 ```
 
+#My hipsterpoints don't travel with me between slack domains! What gives?
+Hipsterbot is too cool for that.
+
+
+
+
+
+
 #Why?
 TODO: find out why.
