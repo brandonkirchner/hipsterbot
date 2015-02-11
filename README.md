@@ -36,5 +36,17 @@ All hipsterpoints are backed by actual puppy gifs. By asking hipsterbot to redee
 hipsterbot, I want to redeem some points!
 ```
 
+#How do I get hipsterbot in a certain channel?
+First, invite hipsterbot to the channel through slack. Then, set the `CHANNEL` environment variable to whatever channels you want hipsterbot in --
+
+```
+heroku config:set CHANNELS="#random, #fedoras, #indiemusic"
+```
+
+Then, you may need to restart your worker, either through the Heroku UI, or command line --
+```
+heroku ps:restart worker
+```
+
 #Why?
 TODO: find out why.
