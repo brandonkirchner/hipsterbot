@@ -1,0 +1,25 @@
+{
+  "name": "hipsterbot",
+  "version": "1.0.0",
+  "description": "hipsterbot for keeping track of hipster points",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brandon",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "to be added...."
+  },
+  "dependencies": {
+    "slack-client": "~1.2.0",
+    "pg": "4.x",
+    "async": "0.9.x",
+    "giphy-wrapper": "0.0.1"
+  },
+  "engines": {
+    "node": ">=0.8.x",
+    "npm": ">=1.1.x"
+  }
+}
